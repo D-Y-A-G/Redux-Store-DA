@@ -16,8 +16,5 @@
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.7.1",
-    "react-redux": "^7.2.6"
-  }
+  "dependencies": {}
 }
