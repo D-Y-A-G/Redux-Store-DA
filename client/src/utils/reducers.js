@@ -13,10 +13,11 @@ import {
 } from "./actions";
 
 const initialState = {
-  categories: [],
   products: [],
+  categories: [],
   currentCategory: [],
   cart: [],
+  cartOpen: false,
 };
 
 // The reducer is a function that accepts the current state and an action. It returns a new state based on that action.
