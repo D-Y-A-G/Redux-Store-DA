@@ -13,6 +13,21 @@ A shopping application re-coded to work with React-REDUX that includes the use o
 
 ---
 
+## Technology Used
+
+```md
+Technologies Used:
+```
+
+<p align="center">
+    <img src="https://img.shields.io/badge/MongoDB-ogreen" />
+    <img src="https://img.shields.io/badge/Express.js-orange" />
+    <img src="https://img.shields.io/badge/React.js-blue"  />
+    <img src="https://img.shields.io/badge/Node.js-lightgreen" />
+    <img src="https://img.shields.io/badge/Heroku-purple" />
+   
+</p>
+
 ## **🔎Table of Contents**
 
 -[Installation](#installation)
