@@ -12,15 +12,16 @@ import {
   TOGGLE_CART,
 } from "./actions";
 
-const initialState = {
+const defaultState = {
   products: [],
   categories: [],
-  currentCategory: "", //string
+  currentCategory: "",
   cart: [],
+  cartOpen: false,
 };
 
 // The reducer is a function that accepts the current state and an action. It returns a new state based on that action.
-export const reducers = (state = initialState, action) => {
+export const reducers = (state = defaultState, action) => {
   switch (action.type) {
     // Returns a copy of state with an update products array. We use the action.products property and spread it's contents into the new array.
     case UPDATE_PRODUCTS:
